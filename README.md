@@ -22,4 +22,3 @@ Includes features for the amount of data used to predict along with the **amount
    - DataLoader Class for (input, output) Pairing
    - Long-Short-Term-Memory Neural Network Implementation
    - Training Loop Utilizing Mean Squared Error Loss
-   - 
