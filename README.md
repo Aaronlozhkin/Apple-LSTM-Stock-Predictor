@@ -1,4 +1,8 @@
 # Apple LSTM Stock Predictor
+
+<a target="_blank" href="https://colab.research.google.com/github/Aaronlozhkin/Apple-LSTM-Stock-Predictor/blob/main/predictingAPPL.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
  
 Takes intraday stock data of APPL from 2010-2019. Resamples to 10-minute intervals using pandas and adds columns for MACD and RSI technical indicators based on 'Open' market prices. Trains a Long Short-Term Memory neural network on 'Open' price market data from 2010-2017 and then predicts 'Closed' price data from 2018-2019. Data is min-max scaled using Sci-Kit learn and visualized using MatPlotLib.
 
